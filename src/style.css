@@ -1,3 +1,8 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
 body {
     background: linear-gradient(135deg,rgb(1, 1, 26),rgb(4, 8, 112),rgb(1,1,26));
     color: rgb(193, 217, 217);
@@ -57,6 +62,7 @@ padding: 10px 5%;
     font-weight: bold;
     font-size: 67%;
 }
+
 .links{
     display:flex;
     justify-content: space-between;
@@ -75,15 +81,24 @@ li{
 #inicio{
     display: flex;
     justify-content: center;
+    align-items: center;
     margin-top: 2vh;
-    margin-bottom: 20vh;
+    margin-bottom: 32vh;
 
 
 }
+#bout{
+    display: flex;
+    justify-content: center;
+}
 .apresenta{
-    margin-top: 4vh;
-    margin-right: 4vw;
-    width:35%;
+    display: block;
+    background: linear-gradient(45deg,rgb(2, 2, 42),rgb(2, 2, 31));
+    border-radius: 100px;
+    margin-right: 5vw;
+    width:40%;
+    padding: 2vh 2vw;
+    height: 20%;
     gap:150px;
      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
 }
@@ -118,6 +133,7 @@ font-size:300%;
     justify-content: center;
     border: 3px solid rgb(193, 217, 217);
     color: #94a3b8;
+    overflow:hidden;
 }
 .Luis{
     
@@ -188,4 +204,13 @@ border-radius: 12px;
 .tcx{
     padding:0px 2vw;
 
+}
+.desc{
+    display: block;
+    background: linear-gradient(45deg,rgb(2, 2, 42),rgb(2, 2, 31));
+    border-radius: 100px;
+    width:80%;
+    padding: 2vh 2vw;
+    height: 30%;
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
 }
