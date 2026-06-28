@@ -1,0 +1,28 @@
+body {
+    background-color: rgb(1, 1, 26);
+     color:rgb(193, 217, 217);
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5vh;
+
+}
+.links{
+    display:flex;
+    justify-content: center;
+    align-items: start;
+    gap: 500px;
+    color:rgb(193, 217, 217);
+}
+.tela{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    height: 90vh;
+    width: 90vw;
+    background-color: rgb(1, 1, 26);
+    color:rgb(193, 217, 217);
+    
+}
