@@ -1,5 +1,7 @@
 body {
-    background-color: rgb(1, 1, 26);
+    background: linear-gradient(135deg,rgb(1, 1, 26),rgb(4, 8, 112),rgb(1,1,26));
+    color: rgb(193, 217, 217);
+    
      color:rgb(193, 217, 217);
 }
 header{
@@ -44,8 +46,7 @@ p{
 .interface{
 display: flex;
 justify-content: space-between;
-align-items: center;
-margin: 0 auto;
+align-items: start;
 }
 .logo{
     display: flex;
