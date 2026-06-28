@@ -47,6 +47,7 @@ p{
 display: flex;
 justify-content: space-between;
 align-items: start;
+padding: 10px 5%;
 }
 .logo{
     display: flex;
@@ -59,12 +60,11 @@ align-items: start;
 .links{
     display:flex;
     justify-content: space-between;
-    align-items: start;
     gap:30px;
     color:rgb(193, 217, 217);
-    margin-inline: auto;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
 }
+
 a{
     text-decoration: none;
     color: inherit;
@@ -176,12 +176,16 @@ border-radius: 12px;
     border: 10px;
     border-radius: 100px;
     width: 500px;
-    height: 200px;
+    height: 170px;
     text-align: center;
     padding: 30px 0;
 }
 .pro{
     display: flex;
     justify-content: center;
+
+}
+.tcx{
+    padding:0px 2vw;
 
 }
