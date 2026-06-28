@@ -33,3 +33,39 @@ a{
 li{
     list-style: none;
 }
+#inicio{
+    display: flex;
+    justify-content: center;
+
+
+}
+.apresenta{
+   
+    width:30%;
+    gap:150px;
+}
+.sauda{
+display: flex;
+justify-content: center;
+
+}
+.foto{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #051c41, #313741);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid rgb(193, 217, 217);
+    color: #94a3b8;
+}
+.Luis{
+    
+    width: 300px;
+    height: 300px;
+
+
+
+
+}
